@@ -1,0 +1,47 @@
+[
+  {
+    "cliente_id": 1,
+    "nombre": "Carlos Perez",
+    "cedula": "1102567890",
+    "direccion": "Loja-Ecuador",
+    "telefono": "0991234567",
+    "cuentas": [
+      {
+        "numero_cuenta": "010101001",
+        "tipo": "ahorros",
+        "saldo": 1500.75,
+        "moneda": "USD"
+      },
+      {
+        "numero_cuenta": "010101002",
+        "tipo": "corriente",
+        "saldo": 340.25,
+        "moneda": "USD"
+      }
+    ],
+    "prestamos": [
+      {
+        "prestamo_id": "P-001",
+        "monto": 5000,
+        "tasa_interes": 0.12,
+        "plazo_meses": 24
+      },
+      {
+        "prestamo_id": "P-002",
+        "monto": 3000,
+        "tasa_interes": 0.12,
+        "plazo_meses": 12
+      }
+    ],
+    "transacciones": [
+      {
+        "transaccion_id": "T-000000024",
+        "fecha": "2025-02-01",
+        "tipo": "deposito",
+        "cuenta": "010101002",
+        "monto": 500
+      }
+    ]
+  }
+]
+
